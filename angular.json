@@ -95,6 +95,15 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "baseHref": " https://chrishenryjacob.github.io/github-actions/",
+            "repo": "https://github.com/chrishenryjacob/github-actions.git",
+            "name": "chrishenryjacob",
+            "email": "christopherhenryjacob@gmail.com"
+          }
         }
       }
     }
